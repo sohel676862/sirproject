@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.404);
+  position: fixed;
+
+}
+.container {
+  width: 1130px;
+  margin: 0 auto;
+}
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  padding-top: 10px;
+
+
+}
+.logo{
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.navcontainer ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navcontainer ul a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: 0.3s;
+  text-transform: capitalize;
+  color: wheat;
+}
+.main {
+  background-image: url(https://bootstrapmade.com/demo/templates/Logis/assets/img/page-header.jpg);
+  width: 100%;
+  height:400px;
+  padding: 140px 0 80px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -11;
+
+}
+.overlay{
+    position: absolute;
+    background-color:#8085CF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+}
+.about_contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.about_contaner h1{
+    color: #fff;
+    font-size: 50px;
+}
+.about_contaner p{
+    color: #fff;
+   width: 600px;
+}
+.about_us_padding{
+    padding-top: 60px;
+}
+.aboutusfles{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 10px;
+}
+.about_contaner p{
+    width: 600px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.about_dic h1{
+color: blue;
+text-transform: capitalize;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.about_dic p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.right_about{
+    width: 600px;
+}
+.right_about img{
+    width: 100%;
+    height: 500px;
+}
+.icon_text{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    padding-right: 10px;
+
+}
+.about_textdex p{
+   font-size: 18px;
+   margin: 10px 0;
+}
+.material-symbols-outlined{
+    font-size: 35px;
+}
+.count{
+    padding: 40px;
+}
+.count_grid{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+justify-content: center;
+
+}
+.count_grid h2{
+    text-align: center;
+}
+.countrekha{
+    width: 30px;
+    height: 2px;
+    background: red;
+   
+}
+.div_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.div_center p{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
+.our_team{
+    padding: 40px 0;
+}
+.temd_dis{
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+}
+.team_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.image{
+    width: 368px;
+    height: 327px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.cart{
+display: flex;
+    border-radius: 5px;
+ 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-top: none;
+
+}
+
+.cart_dis{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.cart_dis p{
+    text-align: center;
+}
+.question{
+    padding: 40px 0px;
+}
+.ask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ask h1{
+
+text-transform: uppercase;
+
+}
+.rekha2{
+    margin-top: 10px;
+    width: 42px;
+    height: 4px;
+    background: blue;
+ 
+}
+.loremtex{
+    padding: 10px 0px;
+}
+.containertex{
+    width: 1000px;
+    margin: 0 auto;
+}
+.displa_flex_text{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.loremcontainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-top: 10px;
+}
+.question_icon{
+    margin-left: 316px;
+}
+.footer{
+    padding: 50px 0px;
+    background-color: #0E1D34;
+    color: #fff;
+    margin-top: 40px;
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 3fr;
+    grid-gap: 10px;
+}
+.footer_dis h1{
+
+    margin-bottom: 10px;
+}
+.footer_dis p{
+    font-size: 17px;
+    font-weight: bold;
+    width: 360px;
+}
+.footer_lsit{
+    margin-top: 10px;
+}
+.footer_right .footer_lsit ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_lsit ul li{
+
+    margin-bottom: 10px;
+
+}
+.footer_lsit ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer_lsit_addredess p{
+
+    margin: 10px 0px;
+}
+.phone{
+    margin-top: 20px;
+}
+.socla_miedai span{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav_link{
+    background-color: blue;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.social_icon_cart i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.end_of_this{
+    padding: 25px 0px 30px 0px;
+}
+.end_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.end_flex p{
+    margin-bottom: 10px;
+}
